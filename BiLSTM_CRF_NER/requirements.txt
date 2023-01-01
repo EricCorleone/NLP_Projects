@@ -1,0 +1,6 @@
+pytorch~=1.12.1
+cudatoolkit~=11.3.1
+pandas~=1.5.1
+matplotlib~=3.5.1
+seqeval~=1.2.2
+pytorch-crf~=0.7.2
