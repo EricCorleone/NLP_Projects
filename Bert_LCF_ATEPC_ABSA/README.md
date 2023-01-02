@@ -51,7 +51,7 @@ Bert_LCF_ATEPC_ABSA
 
 模型分为两部分：属性提取（实体BIO标签预测）和 BertAttention 情感分类。其中属性提取部分加入 CRF 来提升实体识别的准确率。
 
-![](D:\Users\Gtafa\Desktop\DL\NLP Projects\Bert_LCF_ATEPC_ABSA\model_structure.png)
+![](model_structure.png)
 
 ## 数据预处理
 
