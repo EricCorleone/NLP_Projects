@@ -22,6 +22,7 @@ Bert_TextCNN_CLS
         ├─ train.py				训练文件
         └─ utils.py				工具函数
 ```
+
 <h2>数据集</h2>
 
 清华大学的 THUCNews 新闻文本分类数据集（子集），训练集18w，验证集1w，测试集1w。
