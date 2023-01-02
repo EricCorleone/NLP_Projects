@@ -4,7 +4,7 @@
 
 本项目采用 **BERT + 局部上下文特征（LCF）+ 属性提取和属性情感分类联合模型（ATEPC）** 来实现对电商平台用户评价的 **属性级情感分析（ABSA）**，模型参考自 [yangheng95/LCF-ATEPC](https://github.com/yangheng95/LCF-ATEPC)，对原模型进行了精简。
 
-实现效果：
+### 实现效果
 
 ```python
 文本：这个手机系统很流畅，拍照效果也很好，但是20W充电属实有点慢。
