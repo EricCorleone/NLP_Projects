@@ -6,7 +6,7 @@
 
 <h2>项目环境</h2>
 
-Python, PyTorch, PaddlePaddle
+Python, PyTorch, PaddlePaddle, Transformers
 
 相关库安装`pip install -r requirement.txt`。
 
