@@ -6,7 +6,7 @@
 
 ## 项目环境
 
-Python, PyTorch
+Python, PyTorch, Transformers
 
 相关库安装`pip install -r requirement.txt`。
 
