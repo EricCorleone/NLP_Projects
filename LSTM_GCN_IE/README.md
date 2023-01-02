@@ -19,6 +19,7 @@ LSTM_GCN_IE
     ├─ input               输入数据
     ├─ model.py            模型文件
     ├─ output              输出数据
+    │    └─ models         保存的模型
     ├─ predict.py          预测文件
     ├─ process             数据预处理
     │    ├─ graph.py       创建图节点链接
