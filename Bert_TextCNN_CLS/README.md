@@ -1,4 +1,4 @@
-# Bert-TextCNN 新闻文本分类
+# BERT-TextCNN 新闻文本分类
 
 ## 项目说明
 
@@ -6,7 +6,7 @@
 
 ## 项目环境
 
-PyTorch, Python
+Python, PyTorch
 
 相关库安装`pip install -r requirement.txt`。
 
@@ -16,6 +16,9 @@ PyTorch, Python
 Bert_TextCNN_CLS
         ├─ config.py          配置文件
         ├─ data               数据集
+        │    ├─ input         数据集存放位置
+    	│    └─ output        输出数据
+        │	 └─ models    保存的模型
         ├─ figures            训练过程的可视化图像
         ├─ model.py           模型文件
         ├─ predict.py         预测文件
@@ -28,7 +31,7 @@ Bert_TextCNN_CLS
 
 ## 模型结构
 
-使用BERT预训练模型 bert-base-chinese 的输出作为句子的向量表示，并冻结参数；定义 TextCNN 模型，分别使用滑动窗口为2、3、4的卷积核对词向量进行卷积。
+使用BERT预训练模型 bert-base-chinese 的输出作为句子的向量表示，并冻结参数；定义TextCNN模型，分别使用滑动窗口为2、3、4的卷积核对词向量进行卷积。
 
 ## 数据集
 
