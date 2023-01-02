@@ -1,14 +1,16 @@
-<h1>Bert-TextCNN 新闻文本分类</h1>
-<h2>项目说明</h2>
+# Bert-TextCNN 新闻文本分类
+
+## 项目说明
+
 本项目使用 <b>BERT + TextCNN</b> 实现新闻文本分类。
 
-<h2>项目环境</h2>
+## 项目环境
 
 PyTorch, Python
 
 相关库安装`pip install -r requirement.txt`。
 
-<h2>项目目录</h2>
+## 项目目录
 
 ```
 Bert_TextCNN_CLS
@@ -24,31 +26,31 @@ Bert_TextCNN_CLS
         └─ utils.py           工具函数
 ```
 
-<h2>模型结构</h2>
+## 模型结构
 
-使用 BERT 的输出作为句子的向量表示，并冻结BERT参数；定义 TextCNN 模型，分别使用滑动窗口为2、3、4的卷积核对词向量进行卷积。
+使用BERT的输出作为句子的向量表示，并冻结BERT参数；定义TextCNN模型，分别使用滑动窗口为2、3、4的卷积核对词向量进行卷积。
 
-<h2>数据集</h2>
+## 数据集
 
 清华大学的 THUCNews 新闻文本分类数据集（子集），训练集18w，验证集1w，测试集1w。
 
 一共10个类别：金融、房产、股票、教育、科学、社会、政治、体育、游戏、娱乐。
 
-<h2>文本最大长度选取</h2>
+## 文本最大长度选取
 
 运行`process.py`统计所有句子长度并根据直方图分布选取一个最大长度，填入`config.py`中的 TEXT_LEN 属性中。
 
-<h2>训练和测试</h2>
+## 训练和测试
 
 运行`train.py`和`test.py`。
 
 学习率为1e-3，batch size 为100，训练1个epoch，使用Matplotlib可视化训练过程。测试集F1得分为0.93，预测效果较好。
 
-<h2>预测</h2>
+## 预测
 
 运行`predict.py`。
 
-<h2>训练自己的数据集</h2>
+## 训练自己的数据集
 
 train.txt、dev.txt、test.txt 的数据格式：文本\t标签（数字表示）
 
@@ -59,7 +61,7 @@ train.txt、dev.txt、test.txt 的数据格式：文本\t标签（数字表示�
 
 class.txt：标签类别（文本）
 
-<h3>修改内容</h3>
+### 修改内容
 
 在配置文件中修改句子长度、类别数和预训练模型名称。
 
