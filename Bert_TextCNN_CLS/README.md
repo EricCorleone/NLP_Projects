@@ -1,6 +1,5 @@
 <h1>Bert-TextCNN-CLS 新闻文本分类</h1>
 <h2>项目说明</h2>
-
 本项目使用 <b>BERT + TextCNN</b> 实现新闻文本分类。
 
 <h2>项目环境</h2>
@@ -39,6 +38,8 @@ Bert_TextCNN_CLS
 
 运行`train.py`和`test.py`。
 
+学习率为1e-3，batch size 为100，训练1个epoch，使用Matplotlib可视化训练过程。测试集F1得分为0.93，预测效果较好。
+
 <h2>预测</h2>
 
 运行`predict.py`。
@@ -56,7 +57,7 @@ class.txt：标签类别（文本）
 
 <h3>修改内容</h3>
 
-在配置文件`config.py`中修改句子长度、类别数和预训练模型名称。
+在配置文件中修改句子长度、类别数和预训练模型名称。
 
 ```python
 TEXT_LEN = 30
