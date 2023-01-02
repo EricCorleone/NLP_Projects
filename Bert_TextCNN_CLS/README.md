@@ -1,4 +1,4 @@
-<h1>Bert-TextCNN-CLS 新闻文本分类</h1>
+<h1>Bert-TextCNN 新闻文本分类</h1>
 <h2>项目说明</h2>
 本项目使用 <b>BERT + TextCNN</b> 实现新闻文本分类。
 
@@ -23,6 +23,10 @@ Bert_TextCNN_CLS
         ├─ train.py           训练文件
         └─ utils.py           工具函数
 ```
+
+<h2>模型结构</h2>
+
+使用BERT的输出作为句子的向量表示，并冻结BERT参数；定义TextCNN模型，分别使用滑动窗口为2、3、4的卷积核对词向量进行卷积。
 
 <h2>数据集</h2>
 
