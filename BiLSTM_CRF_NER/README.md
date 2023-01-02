@@ -5,7 +5,7 @@
 
 <h2>项目环境</h2>
 
-PyTorch, Python
+Python, PyTorch
 
 相关库安装`pip install -r requirement.txt`。
 
