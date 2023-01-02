@@ -6,7 +6,7 @@
 
 ## 项目环境
 
-PyTorch, Python
+Python, PyTorch
 
 相关库安装`pip install -r requirement.txt`。
 
@@ -23,9 +23,10 @@ BiLSTM_CRF_NER
     ├─ config.py           配置文件
     ├─ data_process.py     数据预处理
     ├─ figures             训练过程的可视化图像
-    ├─ input               输入数据
+    ├─ input               数据集存放位置
     ├─ model.py            模型文件
     ├─ output              输出数据
+    │    └─ models         保存的模型
     ├─ predict.py          预测文件
     ├─ requirements.txt    需求文件
     ├─ test.py             测试文件
@@ -44,4 +45,3 @@ BiLSTM_CRF_NER
 运行`train.py`和`test.py`。
 
 学习率为1e-3，batch size为64，训练40个epoch，测试集平均F1得分为0.67，还有优化空间，最理想值为0.76。
-
