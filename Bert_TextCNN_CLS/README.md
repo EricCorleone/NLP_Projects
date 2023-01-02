@@ -6,7 +6,7 @@
 
 ## 项目环境
 
-Python, PyTorch
+Python, PyTorch, Transformers
 
 相关库安装`pip install -r requirement.txt`。
 
@@ -15,7 +15,7 @@ Python, PyTorch
 ```
 Bert_TextCNN_CLS
         ├─ config.py          配置文件
-        ├─ data               数据集
+        ├─ data               训练数据
         │    ├─ input         数据集存放位置
     	│    └─ output        输出数据
         │	 └─ models    保存的模型
