@@ -11,16 +11,16 @@ PyTorch, Python
 <h2>项目目录</h2>
 ```
 Bert_TextCNN_CLS
-        ├─ config.py			配置文件
-        ├─ data					数据集
-        ├─ figures				训练过程的可视化图像
-        ├─ model.py				模型文件
-        ├─ predict.py			预测文件
-        ├─ process.py			预处理
-        ├─ requirements.txt		需求文件
-        ├─ test.py				测试文件
-        ├─ train.py				训练文件
-        └─ utils.py				工具函数
+        |-- config.py			配置文件
+        |-- data					数据集
+        |-- figures				训练过程的可视化图像
+        |-- model.py				模型文件
+        |-- predict.py			预测文件
+        |-- process.py			预处理
+        |-- requirements.txt		需求文件
+        |-- test.py				测试文件
+        |-- train.py				训练文件
+        |-- utils.py				工具函数
 ```
 
 <h2>数据集</h2>
