@@ -15,7 +15,7 @@ Python, PyTorch, Transformers
 ```
 Bert_TextCNN_CLS
         ├─ config.py          配置文件
-        ├─ data               训练数据
+        ├─ data               数据
         │    ├─ input         数据集存放位置
     	│    └─ output        输出数据
         │	 └─ models    保存的模型
