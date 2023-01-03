@@ -16,7 +16,7 @@ Python, PyTorch, PaddlePaddle, Transformers
 LSTM_GCN_IE
     ├─ config.py           配置文件
     ├─ figures             训练过程的可视化图像
-    ├─ input               输入数据
+    ├─ input               数据集存放位置
     ├─ model.py            模型文件
     ├─ output              输出数据
     │    └─ models         保存的模型
