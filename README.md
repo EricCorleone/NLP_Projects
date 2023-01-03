@@ -1,14 +1,16 @@
 # NLP Projects
 
-## 简介
+## Introduction
 
 本库包括本人使用 PyTorch 完整复现并多次实验的五个 NLP 项目。
 
-## 环境
+This repository includes five NLP projects that I have fully reimplemented and experimented with using PyTorch.
+
+## Requirements
 
 Python, PyTorch, Transformers
 
-## 目录
+## Contents
 
 ```
 NLP_Projects
